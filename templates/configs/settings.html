@@ -1,0 +1,46 @@
+<div role="tabpanel" class="tab-pane config-section active" id="settings">
+	<form method="POST" autocomplete="off" class="w-100">
+
+        <div class="form-group">
+			<label>
+				Docker API URL
+				<small class="form-text text-muted">
+					Docker API URL to connect
+				</small>
+			</label>
+			<input type="text" class="form-control" id="docker-api-url" name="docker_api_url" value="{{ configs.get("docker_api_url") }}">
+		</div>
+
+        <div class="form-group">
+			<label>
+				Docker Client host
+				<small class="form-text text-muted">
+					The ip of Docker Client, e.g., 192.168.1.1
+				</small>
+			</label>
+			<input type="text" class="form-control" id="docker-client-ip" name="docker_client_ip" value="{{ configs.get("docker_client_ip") }}">
+		</div>
+
+        <div class="form-group">
+			<label>
+				Max Container Count
+				<small class="form-text text-muted">
+					Max Container Count
+				</small>
+			</label>
+			<input type="text" class="form-control" id="docker-max-container-count" name="docker_max_container_count" value="{{ configs.get("docker_max_container_count") }}">
+		</div>
+
+        <div class="form-group">
+			<label>
+				Max Renewal Times
+				<small class="form-text text-muted">
+					Max Renewal Times
+				</small>
+			</label>
+			<input type="text" class="form-control" id="docker-max-renew-count" name="docker_max_renew_count" value="{{ configs.get("docker_max_renew_count") }}">
+		</div>
+
+		<button type="submit" class="btn btn-md btn-primary float-right">Update</button>
+	</form>
+</div>

@@ -1,0 +1,4 @@
+{
+    "name": "CTFd Docker",
+    "route": "/admin/plugins/ctfd-docker/settings"
+}
