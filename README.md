@@ -1,7 +1,7 @@
 # CTFd-Docker
 
 
-有在内网使用的需求，所以在 CTFd-Whale 基础上做了不少精简
+有在内网使用的需求，所以在 CTFd-Whale 基础上做了不少精简, 去掉了 FRP、修了小 BUG
 
 
 Thanks:
